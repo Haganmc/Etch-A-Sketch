@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    border: 1px solid #666;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: Bytesized, sans-serif;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.controls {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.sliderValue {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px; /* Add spacing below the grid size display */
+}
+
+.gridSlider {
+    width: 100%; /* Make the slider take full width of the controls */
+    max-width: 200px; /* Optional: Limit the slider's width */
+}
+
+.slider-controls {
+    display: flex;
+    flex-direction: column; /* Arrange slider and buttons in a row */
+    align-items: center;
+    justify-content: center;
+}
+
+.control-buttons {
+    gap: 20px;
+}
+
+.control-buttons button {
+    width: 80px;
+    height: 60px;
+    border-radius: 10%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
